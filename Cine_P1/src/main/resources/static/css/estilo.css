@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 feb. 2024, 15:25:23
+    Author     : kensa
+*/
+
+.position-img{
+    display:flex;
+}
+
+.img{
+    width:150px;  /*ancho*/
+    height: 250px;   /*alto*/
+}
+
+.img2{
+    width:150px;  /*ancho*/
+    height: 250px;   /*alto*/
+}
+
+.img3{
+    width:150px;  /*ancho*/
+    height: 250px;   /*alto*/
+}
+
+.img4{
+    width:150px;  /*ancho*/
+    height: 250px;   /*alto*/
+}
+
+.font{
+    background-color: #474B50;
+}
+
+
+

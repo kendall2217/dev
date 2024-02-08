@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Realizar Pago</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            a:link{
+                color: #006CFF ;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:visited {
+                color: #006CFF;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+        </style>
+        
+
+    </head>
+    <body style="background-color:#474B50;">
+        <header>
+            <h1 style="text-align: center; background-color: black; color: #E44500">CINEMANIA</h1> 
+            <nav>
+                <a href="index.html"><h1>Principal</h1><a>
+                        <h1 style="text-align: center; background-color: black; color: red">REALIZAR PAGO EN LINEA</h1> 
+                        </nav>
+                        </header>
+        
+        
+        <section class="section">
+            <article>
+                <header>
+                    <h2>Solicitud de Información</h2>
+                </header>
+
+                <form action="#">
+                    <table border="0" cellspacing="5" cellpadding="5">                        
+                        <tbody>
+                            <tr>
+                                <td style="color:white;">Usuario</td>
+                                <td><input type="email" 
+                                           name="usuario" placeholder="correo@correo.com"
+                                           size="25"/></td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="color:white;">Nombre completo</td>
+                                <td><input type="text" name="nombre" placeholder="Nombre completo"
+                                           size="40"/></td>
+                            </tr>
+                            <tr>
+                                <td style="color:white;" >Numero de Trajeta</td>
+                                <td><input type="tel" name="tarjeta"
+                                           size="8"/></td>
+                            </tr>
+                            <tr>
+                                <td style="color:white;">Clave Tarjeta</td>
+                                <td><input type="tel" name="clave tarjeta"/></td>
+                            </tr>                            
+                           
+                            <tr>
+                                <td style="color:white;">Selccione Cine</td>
+                                <td><select name="Cine">
+                                        <option value="1">San Jose</option>
+                                        <option value="2">Cartago</option>
+                                        <option value="3">Heredia</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td style="color:white;">Selccione la Funcion</td>
+                                <td><select name="Funcion">
+                                        <option value="1">Winnie the Pooh: Blood and Honey 2</option>
+                                        <option value="2">Saw XI</option>
+                                        <option value="3">The Strangers</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td style='color:white'>Confirmar Pago</td>
+                                <td><button type="button" onclick="alert('Boleto comprado con exito!!!')">Pagar</button></td>
+  
+                            </tr>
+                        </tbody>
+                    </table>
+                    Confirmo realizar el pago por medio de tarjeta <input type="checkbox" name="jura" required />
+                </form>
+            </article>
+        </section>
+        
+        
+    </body>
+</html>
